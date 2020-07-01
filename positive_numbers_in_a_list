@@ -1,0 +1,9 @@
+a=int(input("enter the beginning of the range"))
+b=int(input("enter the end of the range"))
+list=[]
+for i in range(a,b+1):
+    if i>=0:
+        list.append(i)
+    else:
+        continue
+print(list)
